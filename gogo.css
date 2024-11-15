@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container1 {
+  background: linear-gradient(180deg, #fff, #f7f7f7);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.gogoheader1 {
+  /* width: 119; */
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 10%;
+}
+
+.header-right {
+  display: flex;
+  gap: 30px;
+}
+
+.grazy {
+  font-size: 15px;
+}
+
+.aimr {
+  display: flex;
+  text-align: auto;
+  gap: 5px;
+}
+
+.galzuu {
+  /* background-color: rgba(214, 214, 213, 1) 65%, ; */
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  max-width: 1115px;
+  height: 385px;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.krezi {
+  /* background-color: rgba(128, 128, 128, 1) 100%; */
+  display: flex;
+  margin-left: auto;
+}
+
+.zaza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: auto;
+  gap: 20px;
+
+  background: rgb(253, 254, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(253, 254, 255, 1) 0%,
+    rgba(214, 214, 213, 1) 65%,
+    rgba(128, 128, 128, 1) 100%
+  );
+}
+
+.neg {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 20px;
+}
+.pine {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+}
+.baatar {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+}
+.bilee {
+  width: 300px;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+.ho{
+    margin-top: 10px;
+    
+}
+.part2{
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+   
+}
+.title{
+ display: flex;
+ justify-content: center;
+ padding-right: 30px;
+ gap: 10px;
+ margin-bottom:  20px;;
+
+
+}
