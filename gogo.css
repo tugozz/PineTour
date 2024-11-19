@@ -123,6 +123,7 @@
   flex-direction: column;
   margin: 0px 287px;
   padding: 0px 40px;
+  margin: auto;
    
 }
 .title{
@@ -150,8 +151,7 @@
 
 .lmao{
   background-color: red;
-max-width: 1180px;
-margin: auto;
+max-width: 1100px;
 padding: 30px;
 
 
@@ -168,6 +168,9 @@ padding: 30px;
 .tiitle2{
   display: flex;
   margin-bottom: 10px;
+  width: 830px;
+  height: 3258.15px;
+  padding: 0px 0px 0px 140px;
  
 
 }
@@ -180,3 +183,37 @@ padding: 30px;
   padding: 15px;
 
 }
+.title3{
+  padding: 0px 0px 0px 140px;
+  width: 410px;
+  height: 3278.15px;
+  background-color: yellow;
+
+}
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  background-color: rgb(232, 232, 232,);
+  padding: 5px 15px;
+  border-radius: 17px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  padding: 5px 25px;
+  background-color: white;
+}
+
+.arrow svg {
+  transition: all 0.3s ease-out;
+}
+
+.arrow:hover svg{
+  transform: rotate(35deg);
+}
+
