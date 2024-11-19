@@ -47,8 +47,6 @@
   max-width: 1100px;
   height: 385px;
   margin: auto;
-  
-  
 }
 
 .header {
@@ -56,7 +54,6 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .krezi {
@@ -64,7 +61,7 @@
   display: flex;
   margin-left: auto;
 }
-.flex{
+.flex {
   display: flex;
 }
 .zaza {
@@ -74,8 +71,6 @@
   gap: 20px;
   max-width: 542.5px;
   height: 264.6px;
-
-
 
   background: rgb(253, 254, 255);
   background: linear-gradient(
@@ -90,7 +85,6 @@
   display: flex;
   margin: auto;
   width: 1100px;
-
 }
 .pine {
   width: 300px;
@@ -113,91 +107,76 @@
   flex-direction: column;
   justify-content: center;
 }
-.ho{
-    margin-top: 10px;
-    
+.ho {
+  margin-top: 10px;
 }
-.container2{
-    display: flex;
+.container2 {
+  display: flex;
   justify-content: space-between;
   flex-direction: column;
   margin: 0px 287px;
   padding: 0px 40px;
   margin: auto;
-   
 }
-.title{
- display: flex;
- 
- /* justify-content: center; */
- 
- padding: 20px;
+.title {
+  display: flex;
 
+  /* justify-content: center; */
 
-
+  padding: 20px;
 }
-.width-1100{
-    min-width: 1100px;
-    margin: auto;
-    background-color: white;
+.width-1100 {
+  width: 1100px;
+  margin: auto;
+  background-color: white;
 }
-.lol{
+.lol {
   display: flex;
   justify-content: center;
-
-
+  padding: 0px 40px;
 }
 
-
-.lmao{
+.lmao {
   background-color: red;
-max-width: 1100px;
-padding: 30px;
-
-
+  max-width: 690px;
+  padding: 30px;
+  height: 3239.37px;
 }
 
-.little{
+.little {
   display: flex;
   justify-content: start;
   gap: 30px;
-  
-
-
 }
-.tiitle2{
+.tiitle2 {
   display: flex;
   margin-bottom: 10px;
   width: 830px;
   height: 3258.15px;
   padding: 0px 0px 0px 140px;
- 
-
 }
 
-.hard{
+.hard {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-  padding: 15px;
 
+  padding: 15px;
 }
-.title3{
+.title3 {
   padding: 0px 0px 0px 140px;
   width: 410px;
-  height: 3278.15px;
+  height: 3259.37px;
   background-color: yellow;
-
 }
 
-.arrow{
+.arrow {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   width: fit-content;
-  background-color: rgb(232, 232, 232,);
+  background-color: rgb(232, 232, 232);
   padding: 5px 15px;
   border-radius: 17px;
   transition: all 0.3s ease-in-out;
@@ -213,7 +192,37 @@ padding: 30px;
   transition: all 0.3s ease-out;
 }
 
-.arrow:hover svg{
+.arrow:hover svg {
   transform: rotate(35deg);
 }
 
+title4 {
+  margin: 0px 0px 50px;
+  display: flex;
+  text-align: justify;
+}
+.lala {
+  margin: 10px 0px 0px;
+}
+.smoll {
+}
+.zasnaa {
+  display: flex;
+  margin: 0px 0px 50px;
+}
+.ydralt1 {
+}
+
+.ydralt2 {
+}
+
+.abu {
+  margin: 30px 0px 0px;
+  padding: 30px 50px;
+}
+
+.afk {
+}
+
+.baabar {
+}
