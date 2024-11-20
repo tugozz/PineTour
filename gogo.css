@@ -28,7 +28,8 @@
 }
 
 .grazy {
-  font-size: 15px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .aimr {
@@ -47,6 +48,7 @@
   max-width: 1100px;
   height: 385px;
   margin: auto;
+  margin-top: 20px;
 }
 
 .header {
@@ -63,6 +65,7 @@
 }
 .flex {
   display: flex;
+  margin-top: 30px;
 }
 .zaza {
   display: flex;
@@ -168,32 +171,6 @@
   background-color: white;
 }
 
-.arrow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: fit-content;
-  background-color: rgb(232, 232, 232);
-  padding: 5px 15px;
-  border-radius: 17px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.arrow:hover {
-  padding: 5px 25px;
-  background-color: white;
-}
-
-.arrow svg {
-  transition: all 0.3s ease-out;
-}
-
-.arrow:hover svg {
-  transform: rotate(35deg);
-}
-
 title4 {
   margin: 0px 0px 50px;
   display: flex;
@@ -206,7 +183,7 @@ title4 {
 }
 .zasnaa {
   display: flex;
-  margin: 0px 0px 50px;
+  margin: 50px 0px 50px;
   gap: 10px;
 }
 .ydralt1 {
