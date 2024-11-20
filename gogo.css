@@ -121,8 +121,6 @@
 .title {
   display: flex;
 
-  /* justify-content: center; */
-
   padding: 20px;
 }
 .width-1100 {
@@ -137,7 +135,7 @@
 }
 
 .lmao {
-  background-color: red;
+  background-color: white;
   max-width: 690px;
   padding: 30px;
   height: 3239.37px;
@@ -167,7 +165,7 @@
   padding: 0px 0px 0px 140px;
   width: 410px;
   height: 3259.37px;
-  background-color: yellow;
+  background-color: white;
 }
 
 .arrow {
@@ -209,6 +207,7 @@ title4 {
 .zasnaa {
   display: flex;
   margin: 0px 0px 50px;
+  gap: 10px;
 }
 .ydralt1 {
 }
