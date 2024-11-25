@@ -234,7 +234,29 @@ title4 {
   width: 100%;
   height: 230px;
 }
-
-.test{
-  background-color: white;
+.lastback {
+  background-color: black;
+  width: 100%;
+  /* height: 2000px; */
+  margin: 60px 0px 0px;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.kkk {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.op {
+  margin: auto;
+}
+.width-1100promax {
+  width: 1100px;
+  display: flex;
+}
+.thend {
+  height: 400px;
+  width: auto;
+  padding: 50px 0px;
 }
