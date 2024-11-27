@@ -15,7 +15,6 @@
 }
 
 .gogoheader1 {
-  /* width: 119; */
   display: flex;
   align-items: center;
   gap: 25px;
@@ -186,10 +185,12 @@ title4 {
   margin: 50px 0px 50px;
   gap: 10px;
 }
-.ydralt1 {
+.ydralt1{
+  margin-top: 40px;
 }
 
 .ydralt2 {
+  margin-top: 40px;
 }
 
 .abu {
@@ -259,4 +260,19 @@ title4 {
   height: 400px;
   width: auto;
   padding: 50px 0px;
+  
+}
+.gogoheader47 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+ 
+  height: 10%;
+}
+.ydralt4{
+  margin-top: 40px;
+}
+
+.ydralt3{
+  margin-top: 40px;
 }
