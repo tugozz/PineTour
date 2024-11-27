@@ -61,11 +61,19 @@
   /* background-color: rgba(128, 128, 128, 1) 100%; */
   display: flex;
   margin-left: auto;
+  overflow: hidden;
+  position: relative;
 }
+
+.krezi img {
+  transition: all 1s;
+}
+
 .flex {
   display: flex;
   margin-top: 30px;
 }
+
 .zaza {
   display: flex;
   flex-direction: column;
@@ -75,12 +83,10 @@
   height: 264.6px;
 
   background: rgb(253, 254, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(253, 254, 255, 1) 0%,
-    rgba(214, 214, 213, 1) 65%,
-    rgba(128, 128, 128, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(253, 254, 255, 1) 0%,
+      rgba(214, 214, 213, 1) 65%,
+      rgba(128, 128, 128, 1) 100%);
 }
 
 .neg {
@@ -88,30 +94,41 @@
   margin: auto;
   width: 1100px;
 }
+
 .pine {
   width: 300px;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
+
 .baatar {
   width: 300px;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
+
 .bilee {
   width: 300px;
   display: flex;
   margin-top: 10px;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
+
 .ho {
   margin-top: 10px;
 }
+
 .container2 {
   display: flex;
   justify-content: space-between;
@@ -120,16 +137,19 @@
 
   margin: auto;
 }
+
 .title {
   display: flex;
 
   padding: 20px;
 }
+
 .width-1100 {
   width: 1100px;
   margin: auto;
   background-color: white;
 }
+
 .lol {
   display: flex;
   justify-content: center;
@@ -148,6 +168,7 @@
   justify-content: start;
   gap: 30px;
 }
+
 .tiitle2 {
   display: flex;
   margin-bottom: 10px;
@@ -163,6 +184,7 @@
 
   padding: 0px;
 }
+
 .title3 {
   padding: 0px 0px 0px 140px;
   width: 410px;
@@ -170,22 +192,25 @@
   background-color: white;
 }
 
-title4 {
+.title4 {
   margin: 0px 0px 50px;
-  display: flex;
+
   text-align: justify;
 }
+
 .lala {
   margin: 10px 0px 0px;
 }
-.smoll {
-}
+
+.smoll {}
+
 .zasnaa {
   display: flex;
   margin: 50px 0px 50px;
   gap: 10px;
 }
-.ydralt1{
+
+.ydralt1 {
   margin-top: 40px;
 }
 
@@ -196,16 +221,14 @@ title4 {
 .abu {
   margin: 30px 0px 0px;
   padding: 30px 50px;
+  height: 88.33px;
 }
 
-.afk {
-}
+.afk {}
 
-.baabar {
-}
+.baabar {}
 
-.class {
-}
+.class {}
 
 .header47 {
   display: flex;
@@ -231,10 +254,12 @@ title4 {
   width: 100%;
   height: 360px;
 }
+
 .bruh img {
   width: 100%;
   height: 230px;
 }
+
 .lastback {
   background-color: black;
   width: 100%;
@@ -244,35 +269,123 @@ title4 {
   display: flex;
   flex-direction: column;
 }
+
 .kkk {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
+
 .op {
   margin: auto;
 }
+
 .width-1100promax {
   width: 1100px;
   display: flex;
 }
+
 .thend {
   height: 400px;
   width: auto;
   padding: 50px 0px;
-  
+
 }
+
 .gogoheader47 {
   display: flex;
   align-items: center;
   margin: auto;
- 
+
   height: 10%;
 }
-.ydralt4{
+
+.ydralt4 {
   margin-top: 40px;
 }
 
-.ydralt3{
+.ydralt3 {
   margin-top: 40px;
+}
+
+.krezi:hover img {
+  transform: scale(1.1);
+}
+
+.krezi-hover {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: none;
+
+}
+
+.krezi:hover .krezi-hover {
+  display: flex;
+}
+
+.pine:hover img {
+  transform: scale(1.1);
+
+}
+
+.pine-hover {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.pine:hover .pine-hover {
+  display: flex;
+}
+
+.baatar-hover {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.baatar:hover img {
+  transform: scale(1.1);
+}
+
+.baatar:hover .baatar-hover {
+  display: flex;
+}
+
+.bilee-hover {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.bilee:hover img {
+  transform: scale(1.1);
+}
+
+.bilee:hover .bilee-hover {
+  display: flex;
 }
