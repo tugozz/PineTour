@@ -150,7 +150,7 @@
   width: 1100px;
   margin: auto;
   background-color: white;
-  position: relative;
+
 }
 
 .lol {
@@ -394,8 +394,16 @@
 .bilee:hover .bilee-hover {
   display: flex;
 }
-.width-1100-hover{
+
+.width-1200 {
+  position: relative;
+  overflow: hidden;
+}
+
+.width-1200-hover {
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
@@ -405,13 +413,12 @@
   justify-content: center;
   display: none;
 }
-.width-1100:hover img{
-  transform: scale(1.1);
-}
-.width-1100:hover .width-1100-hover{
+
+.width-1200:hover .width-1200-hover {
   display: flex;
 }
-.flex-hover{
+
+.flex-hover {
   position: absolute;
   z-index: 1;
   color: white;
@@ -422,13 +429,16 @@
   justify-content: center;
   display: none;
 }
-.flex:hover img{
+
+.flex:hover img {
   transform: scale(1.1);
 }
-.flex:hover .flex-hover{
+
+.flex:hover .flex-hover {
   display: flex;
 }
-.hard-hover{
+
+.hard-hover {
   position: absolute;
   z-index: 1;
   color: white;
@@ -439,9 +449,11 @@
   justify-content: center;
   display: none;
 }
-.hard:hover img{
+
+.hard:hover img {
   transform: scale(1.1);
 }
-.hard:hover .hard-hover{
+
+.hard:hover .hard-hover {
   display: flex;
 }
