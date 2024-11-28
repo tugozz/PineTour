@@ -74,6 +74,14 @@
   margin-top: 30px;
   position: relative;
   overflow: hidden;
+
+}
+
+.flex img {
+  transition: all;
+  transition-duration: 0.5s;
+
+
 }
 
 .zaza {
@@ -400,6 +408,10 @@
   overflow: hidden;
 }
 
+.width-1200:hover img {
+  transform: scale(1.1);
+}
+
 .width-1200-hover {
   position: absolute;
   top: 0;
@@ -409,9 +421,19 @@
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
-  align-items: center;
+  align-items: end;
   justify-content: center;
-  display: none;
+  display: flex;
+}
+
+.width-1200-hover p {
+  height: 36px;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.width-1200:hover .width-1200-hover p {
+  height: 100px;
 }
 
 .width-1200:hover .width-1200-hover {
@@ -432,7 +454,12 @@
 
 .flex:hover img {
   transform: scale(1.1);
+  transition: all;
+  transition-duration: 0.5s;
+  filter: brightness(75%);
 }
+
+
 
 .flex:hover .flex-hover {
   display: flex;
@@ -456,4 +483,18 @@
 
 .hard:hover .hard-hover {
   display: flex;
+}
+
+.unshih {
+  position: absolute;
+  opacity: 0;
+  left: 80px;
+  top: 60px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex:hover .unshih {
+  opacity: 1;
 }
